@@ -9,17 +9,11 @@ public class Radio {
     private int numberStation = 10;
     private int maxStation = 9;
 
-    public Radio(int numberStation) {
+    public Radio(int numberStation, int i, int i1, int i2) {
         this.numberStation = numberStation;
         this.maxStation = numberStation - 1;
     }
 
-    public Radio(int currentStation, int currentVolume, int numberStation, int maxStation) {
-        this.currentStation = currentStation;
-        this.currentVolume = currentVolume;
-        this.numberStation = numberStation;
-        this.maxStation = maxStation;
-    }
 
     public Radio() {
 
